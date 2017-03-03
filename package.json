@@ -10,17 +10,17 @@
         "spec": "latest",
         "type": "tag"
       },
-      "/home/pawulon/Projects"
+      "/Users/michal/Desktop"
     ]
   ],
   "_from": "fronthack@latest",
-  "_id": "fronthack@1.0.1",
+  "_id": "fronthack@2.0.3",
   "_inCache": true,
   "_location": "/fronthack",
   "_nodeVersion": "6.9.5",
   "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/fronthack-1.0.1.tgz_1487262763163_0.7312497242819518"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/fronthack-2.0.3.tgz_1488550469031_0.10586830717511475"
   },
   "_npmUser": {
     "name": "frontcraft",
@@ -40,11 +40,11 @@
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/fronthack/-/fronthack-1.0.1.tgz",
-  "_shasum": "53a8023388f49ae71f553a27a03ce905d05b582d",
+  "_resolved": "https://registry.npmjs.org/fronthack/-/fronthack-2.0.3.tgz",
+  "_shasum": "730550a15c55c580f9db42b90270b82904de22d7",
   "_shrinkwrap": null,
   "_spec": "fronthack",
-  "_where": "/home/pawulon/Projects",
+  "_where": "/Users/michal/Desktop",
   "author": {
     "name": "Michal Kokocinski",
     "email": "michal@kokocinski.me",
@@ -54,7 +54,7 @@
     "url": "https://github.com/frontcraft/fronthack/issues"
   },
   "dependencies": {},
-  "description": "The complete set of tools to convert designs into scallable, modular HTML and CSS",
+  "description": "The complete set of tools to convert designs into scalable, modular HTML and CSS",
   "devDependencies": {
     "flexboxgrid-sass": "^8.0.5",
     "gulp": "~3.9.1",
@@ -63,18 +63,17 @@
     "gulp-mustache": "~2.3.0",
     "gulp-rename": "~1.2.2",
     "gulp-sass": "~3.1.0",
-    "gulp-watch": "~4.3.11",
-    "sc5-styleguide": "~1.5.0"
+    "gulp-watch": "~4.3.11"
   },
   "directories": {},
   "dist": {
-    "shasum": "53a8023388f49ae71f553a27a03ce905d05b582d",
-    "tarball": "https://registry.npmjs.org/fronthack/-/fronthack-1.0.1.tgz"
+    "shasum": "730550a15c55c580f9db42b90270b82904de22d7",
+    "tarball": "https://registry.npmjs.org/fronthack/-/fronthack-2.0.3.tgz"
   },
   "engines": {
     "node": ">=0.10.0"
   },
-  "gitHead": "e22a08a76d772ce9bea1c24bc4e17815393b7614",
+  "gitHead": "f2496659fba672a63d679fa0f34b756c4efad663",
   "homepage": "http://fronthack.com",
   "keywords": [
     "css",
@@ -84,7 +83,8 @@
     "smacss",
     "ui",
     "framework",
-    "styleguide"
+    "styleguide",
+    "gulp"
   ],
   "license": "GPL-2.0",
   "main": "gulpfile.js",
@@ -102,9 +102,7 @@
     "url": "git+https://github.com/frontcraft/fronthack.git"
   },
   "scripts": {
-    "dev": "gulp",
-    "newcomponent": "./bin/new_component.sh",
-    "purgestyleguide": "./bin/purge_styleguide.sh"
+    "purgestyleguide": "./src/bin/purge_styleguide.sh"
   },
-  "version": "1.0.1"
+  "version": "2.0.3"
 }

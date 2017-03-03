@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Historia młynarstwa w Gdańsku</title>
+    <meta name="description" content="Młynarstwo w <Gdańsku">
+    	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+  <body>
+<header class="layout--header">
+  <a class="layout--header__link" href="index.html">Historia młynarstwa w Gdańsku</a>
+</header>
+
+
+
+<nav class="nav-horizontal">
+      <a class="nav-horizontal__link" href="poczatki.html">Początki</a>
+      <a class="nav-horizontal__link" href="technologia.html">Technologia</a>
+      <a class="nav-horizontal__link" href="gospodarka.html">Gospodarka</a>
+      <a class="nav-horizontal__link" href="galeria.html">Galeria</a>
+      <a class="nav-horizontal__link" href="index.html">Młyny Ogółem</a>
+</nav>
+
+<nav class="nav-vertical">
+      <img src="images/png/mill.png"/>
+      <a href="poczatki.html" class="nav-vertical__link">Początki</a>
+      <a href="technologia.html" class="nav-vertical__link">Technologia</a>
+      <a href="gospodarka.html" class="nav-vertical__link">Gospodarka</a>
+      <a href="galeria.html" class="nav-vertical__link">Galeria</a>
+      <a href="index.html" class="nav-vertical__link">Młyny Ogółem</a>
+</nav>
+
+<h2>Początki</h2>
+    <a href="images/jpg/kam.jpg" data-lightbox="galeria" data-title="Ostrzenie kamienia młyńskiego"><img src="images/jpg/kamsmall.jpg" style="float:left; margin:10px"/>
+<p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. I
+      nteger nec odio. Praesent libero. Sed cursus ante dapibus diam
+      . Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis
+      sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue
+      semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+      Class aptent taciti sociosqu ad litora torquent per conubia
+      nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.
+      Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam.
+      In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.
+</p>
+<p>
+  Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus,&nbsp; iaculis vel, suscipit quis,
+  luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet.
+  Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed,&nbsp; euismod in, nibh.
+  Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+  Nam nec ante. Sed lacinia, urna non tincidunt mattis,&nbsp; tortor neque adipiscing diam, a cursus ipsum ante quis turpis.
+  Nulla facilisi. Ut fringilla.
+  Suspendisse potenti.&nbsp; Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien.&nbsp; Proin quam. Etiam ultrices.
+  Suspendisse in justo eu magna luctus suscipit.
+  Sed lectus.&nbsp; Integer euismod lacus luctus magna.
+  Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam.
+  Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam.
+  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+  Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.&nbsp; Morbi in ipsum sit amet pede facilisis laoreet.
+
+  Donec lacus nunc, viverra nec.&nbsp;
+</p>
+<footer class="layout--footer">
+Pawełek &copy; Wszelkie prawa zastrzeżone 2017
+<nav class="social-links">
+  <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Ffrontcraft.github.io%2Ffronthack%2F" class="social-links__link" target="_blank">
+    <i class="icon icon--social-facebook"></i>
+  </a>
+  <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Ffrontcraft.github.io%2Ffronthack%2F" class="social-links__link" target="_blank">
+    <i class="icon icon--social-twitter"></i>
+  </a>
+  <a href="https://plus.google.com/share?url=http%3A%2F%2Ffrontcraft.github.io%2Ffronthack%2F" class="social-links__link" target="_blank">
+    <i class="icon icon--social-gplus"></i>
+  </a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ffrontcraft.github.io%2Ffronthack%2F" class="social-links__link" target="_blank">
+    <i class="icon icon--social-linkedin"></i>
+  </a>
+
+</nav>
+</footer>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script src="js/design-toggler.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+  	<script src="js/lightbox.min.js"></script>
+    <script>
+
+      $(document).ready(function() {
+      var NavY = $('.nav-horizontal').offset().top;
+
+      var stickyNav = function(){
+      var ScrollY = $(window).scrollTop();
+
+      if (ScrollY > NavY) {
+          $('.nav-horizontal').addClass('sticky');
+      } else {
+          $('.nav-horizontal').removeClass('sticky');
+      }
+      };
+
+      stickyNav();
+
+      $(window).scroll(function() {
+          stickyNav();
+      });
+      });
+
+  </script>
+  </body>
+</html>
