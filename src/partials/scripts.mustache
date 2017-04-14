@@ -5,15 +5,15 @@
     <script>
 
       $(document).ready(function() {
-      var NavY = $('.nav-horizontal').offset().top;
+      var NavY = $('.layout--subheader').offset().top;
 
       var stickyNav = function(){
       var ScrollY = $(window).scrollTop();
 
       if (ScrollY > NavY) {
-          $('.nav-horizontal').addClass('sticky');
+          $('.layout--subheader').addClass('is-sticky');
       } else {
-          $('.nav-horizontal').removeClass('sticky');
+          $('.layout--subheader').removeClass('is-sticky');
       }
       };
 
